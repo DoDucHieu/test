@@ -1,0 +1,41 @@
+
+#list-category{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 24%;
+    align-items: center;
+    height: 400px;
+    margin: 8 8px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.item_img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.description{
+    overflow:hidden;
+}
+
+
+#list-meal-by-category{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+.result_item{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+

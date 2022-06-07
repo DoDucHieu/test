@@ -1,0 +1,39 @@
+I. INFOS
+	- Source code includes base files for the Meal Page:
+
+II. YOU ARE FREE TO:
+	- Edit the code and files/ folder structure however you like
+	- Use additional CSS library ( like Bootstrap .etc )
+
+III. YOU ARE NOT ALLOWED TO:
+	- NO additional library or plugin for JS, you can only use native Javascript
+
+
+IV. REQUIREMENTS:
+	1. Add a new sign in page that redirect to the Meal Page when click on Sign in
+		- Only 2 fields username/ password, and a sign in button
+		- No real sign in logics required, you just need to create demos to demonstrate these cases:
+			- If user types wrong username/ password -> Show error message indicate that
+			- If user types right username/ password -> Redirect user to the Meal Page
+
+
+	2. The Meal Page:
+		- Please add styling to it so it looks beautiful :), as beautiful as you want :D.
+			- All the information available in the base code must be presented (images, title, description .etc)
+				but style it how you want, for great looking UI and UX
+
+		- When user clicks on an category, the the Meal Section below should be refreshed and filtered accordingly.
+
+			.eg : by default the Meal Section shows meals from "Beef" category
+					if user clicks on "Seafood" category on Category Section above, 
+					the Meal Section should fetch the meals list for "Seafood"
+
+
+V. FINALIZE AND SUBMIT
+	- Please submit your application as a zip file.
+	- Please include instruction text files if you think it can help us to navigate through the demo easier.
+
+	- It is important that you attempt to work on the requirements, even if you do not arrive at a working solution or complete all the requirements :)
+
+
+WE ARE LOOKING FORWARD TO SEE YOUR TALENTS ! :D
