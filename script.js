@@ -35,8 +35,8 @@ let handleOnclickItem = (key) => {
       data.meals.forEach((d) => {
         html += `
 				<div class="result_item">
-					<span>${d.strMeal}</span>
-					<img src="${d.strMealThumb}" width="50px">
+          <img src="${d.strMealThumb}" class="image_filter">
+          <span class="filter_product_name">${d.strMeal}</span>
 				</div>
     		`;
       });

@@ -1,3 +1,7 @@
+.page{
+    padding: 0px 120px;
+}
+
 .header{
     display: flex;
     justify-content: center;
@@ -13,11 +17,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 24%;
+    width: 23%;
     align-items: center;
     height: 400px;
     margin: 8 8px;
     border: 1px solid gray;
+    border-radius: 10px;
     cursor: pointer;
 }
 .category_name{
@@ -43,8 +48,26 @@
     
 }
 .result_item{
-    width: 20%;
+    margin-top: 12px;
+    width: 25%;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
+.image_filter{
+    width: 50%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.filter_product_name{
+    font-size: 16px;
+    color: red;
+    padding: 8px;
+}
+.filter_by_category{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
