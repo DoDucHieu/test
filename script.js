@@ -10,7 +10,7 @@ fetch("https://www.themealdb.com/api/json/v1/1/categories.php")
     data.categories.forEach((d, index) => {
       html += `
 	  	<div key=${index} class="category_item" onclick="handleOnclickItem('${d.strCategory}')">
-		  		<span>${d.strCategory}</span>
+		  		<b class="category_name">${d.strCategory}</b>
 		  		<img class="item_img" src="${d.strCategoryThumb}" width="50px">
 	  		<span class="description">${d.strCategoryDescription}</span>
 	  		<hr>

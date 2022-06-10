@@ -1,4 +1,8 @@
-
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
 #list-category{
     width: 100%;
     display: flex;
@@ -16,13 +20,18 @@
     border: 1px solid gray;
     cursor: pointer;
 }
-
+.category_name{
+    font-size: 20px;
+    margin-top: 8px;
+    color: red;
+}
 .item_img{
-    width: 200px;
-    height: 200px;
+    width: 240px;
+    height: 240px;
     object-fit: cover;
 }
 .description{
+    padding: 16px;
     overflow:hidden;
 }
 
